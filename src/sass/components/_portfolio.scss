@@ -1,0 +1,22 @@
+.portfolio {
+  &-header {
+    color: $colour-white;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+
+  &-img {
+    width: 100%;
+    height: 250px;
+  }
+  .figure {
+    width: auto;
+  }
+  .figure-caption {
+    color: #9fa9b2 !important;
+  }
+}
+.list-group {
+  display: inline-block;
+  margin-top: 50px;
+}

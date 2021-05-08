@@ -1,0 +1,68 @@
+.home-nav {
+  background-color: $colour-background !important;
+  color: $colour-white !important;
+  .navbar-brand {
+    color: $colour-white;
+    font-size: 23px !important;
+  }
+  .nav-link {
+    color: $colour-white !important;
+    font-size: 18px;
+    &:hover {
+      text-decoration: underline !important;
+    }
+  }
+  .btn-outline-success {
+    color: $colour-white !important;
+    &:hover {
+      background-color: $colour-secondr !important;
+    }
+  }
+}
+.space {
+  position: relative;
+  height: 250px;
+  background-color: $colour-secondr;
+  margin-top: 169px;
+  z-index: 1;
+  @media screen and (max-width: 900px) {
+    margin-top: 100px;
+  }
+
+  &-img {
+    position: absolute;
+    z-index: 2;
+    width: 63%;
+    margin-top: -306px;
+    height: 560px;
+    margin-left: 10%;
+    /* object-position: 23.38% 50%; */
+    @media screen and (max-width: 900px) {
+      width: 90%;
+      z-index: 2;
+      height: 400px;
+      margin-left: 5%;
+    }
+  }
+  &-heading {
+    position: absolute;
+    z-index: 3;
+    right: 10%;
+    background-color: $colour-white;
+    width: 480px;
+    height: 400px;
+    margin-bottom: 60px;
+    margin-top: -200px;
+    @media screen and (max-width: 900px) {
+      width: 79%;
+      margin: auto;
+      height: auto;
+    }
+    & h1 {
+      color: $colour-secondr;
+    }
+    & p {
+      padding: 10px;
+    }
+  }
+}

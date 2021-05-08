@@ -1,0 +1,25 @@
+body {
+  background: #2b3329;
+}
+
+.home-nav {
+  background-color: #2b3329;
+  color: #fff !important;
+}
+
+.home-nav .navbar-brand {
+  color: #fff;
+}
+
+.home-nav .nav-link {
+  color: #fff !important;
+}
+
+.home-nav .btn-outline-info {
+  color: #fff !important;
+}
+
+.space {
+  height: 200px;
+  background-color: #678a5d;
+}
